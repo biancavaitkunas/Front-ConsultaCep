@@ -1,0 +1,43 @@
+h1 {
+
+}
+
+.input {
+    font-size: 12px;
+    font-family: inherit;
+    padding: 4px 15px;
+    border-radius: 4px;
+    border: 1px #f2f2f2 solid;
+    background: #fdfdfd;
+    width: 50%;
+    transition: all 0.3s;
+    margin-right: 5px;
+}
+
+.container{
+width: 600px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Century Gothic', sans-serif;
+  background-color: #bab9bd;
+  border-radius: 5px;
+  box-shadow: 2px 0px 1.5px 0px #bebbbb;
+  color: #f7f7f8;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buscar{
+    font-family: 'Century Gothic', sans-serif;
+    border: none;
+    background-color: #7f73b7;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Century Gothic";
+    border-radius: 6px;
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+}

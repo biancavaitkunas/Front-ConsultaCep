@@ -1,0 +1,49 @@
+.tabela {
+  width: 660px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: #b5b0cb;
+  box-shadow: 2px 0px 1.5px 0px #bebbbb;
+  border-radius: 3px;
+  padding: 1em;
+  border-top: 25px;
+  margin-top: 50px;
+  font-family: "Century Gothic";
+  color: white;
+  text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px #f0eded solid;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-family: "Century Gothic";
+}
+
+.resp {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin-right: 8px;
+    text-align: center;
+    border: 1px solid #b5b0cb;
+    background: #b5b0cb;
+    width: 100px;
+    height: 15px;
+    font-family: "Century Gothic";
+    color: white;
+  }
+
+  .rotate-header {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    white-space: nowrap;
+  }
