@@ -1,9 +1,9 @@
-.container {
+.container{
     width: 700px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    background: #d2d8d1;
+    background: #d5e8d1;
     box-shadow: 2px 0px 1.5px 0px #bebbbb;
     border-radius: 3px;
     padding: 1em;
@@ -14,7 +14,7 @@
 
 .header {
 
-    color: rgb(106, 173, 175);
+    color: rgb(79, 158, 71);
     font-family: 'Century Gothic', sans-serif;
     display: flex;
     align-items: center;
@@ -22,8 +22,8 @@
 
 .imagem {
     flex-shrink: 0;
-    margin-right: 30px;
-    margin-left: 20%;
+    margin-right: 20px;
+    margin-left: 15%;
 }
 
 h1{

@@ -1,0 +1,9 @@
+<section class="container">
+
+    <div class="pesquisa">
+        <label class="label">Valor: R$ </label>
+        <input type="text" class="input" placeholder="Ex: 12,34" [(ngModel)]="moedaBrasil" (ngModelChange)="buscarValor()"/>
+    </div>
+    
+</section>
+<app-tabela [valor]="valor"></app-tabela>

@@ -1,44 +1,30 @@
-
 .input {
     font-size: 15px;
     font-family: inherit;
     border-radius: 4px;
     border: 1px #f2f2f2 solid;
     background: #fdfdfd;
-    width: 300px;
+    width: 200px;
     height: 30px;
     transition: all 0.3s;
     margin-right: 10px;
     margin-left: 10px;
+    outline: none;
 }
 
 .container{
-  width: 600px;
+  width: 550px;
   height: 70px;
   margin: auto;
   display: flex;
   flex-direction: column;
   font-family: 'Century Gothic', sans-serif;
-  background-color: #d7baba;
+  background-color: rgb(214, 208, 158);
   border-radius: 5px;
   box-shadow: 2px 0px 1.5px 0px #bebbbb;
-  color: #f7f7f8;
+  color: rgb(88, 87, 82);
   align-items: center;
-  margin-top: 20px;
-}
-
-.buscar{
-    font-family: 'Century Gothic', sans-serif;
-    border: none;
-    background-color: #73a7b7;
-    color: #fff;
-    font-size: 13px;
-    font-family: "Century Gothic";
-    border-radius: 4px;
-    cursor: pointer;
-    width: 70px;
-    height: 30px;
-    //margin-top: 2px;
+  margin-top: 10px;
 }
 
 .pesquisa {

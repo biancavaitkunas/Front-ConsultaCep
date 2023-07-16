@@ -1,30 +1,32 @@
-<section class="tabela">
-    <h1>Endereço</h1>
+<section class="container">
+<div class="titulo">
+  <h1>ENDEREÇO</h1>
+</div>
+   
+
     <table >
 
-        <thead>
-            <tr>
+            <tr class="linha">
               <th>Rua</th>
-              <th>Bairro</th>
-              <th>Cidade</th>
-              <th>Estado</th>
-              <th>CEP</th>
+              <td class="vertical-line">{{endereco.rua}}</td>
             </tr>
-          </thead>
-        <tbody>
-          <tr>
-            <td class="resp"></td>
-            <td>{{endereco.rua}}</td>
-            <td class="resp"></td>
-            <td>{{endereco.bairro}}</td>
-            <td class="resp"></td>
-            <td>{{endereco.cidade}}</td>
-            <td class="resp"></td>
-            <td>{{endereco.estado}}</td>
-            <td class="resp"></td>
-            <td>{{endereco.cep}}</td>
-          </tr>
-        </tbody>
-    
+            <tr>
+              <th>Bairro</th>
+              <td class="vertical-line">{{endereco.bairro}}</td>
+            </tr>
+            <tr>
+              <th>Cidade</th>
+              <td>{{endereco.cidade}}</td>
+            </tr>
+            <tr>
+              <th>Estado</th>
+              <td>{{endereco.estado}}</td>
+            </tr>
+            <tr>
+              <th>CEP</th>
+              <td>{{endereco.cep}}</td>
+            </tr>
+
       </table>
+
 </section>
